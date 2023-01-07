@@ -19,7 +19,7 @@ fn main() {
         print!("\nYou may include \\n, \\r, \\t, and \\\\ in arguments to echoe.\n");
         print!("You must add \\n at the end of the invocation if you want to end the output with a newline.\n");
         print!("\nExample:\n\techoe \"This\\tis\\na\\ttest.\\n\"\n\n");
-        print!("Please see https://github.com/jimlawless/echoe/\n");
+        print!("Please see https://github.com/jimlawless/echoe\n");
         return;
     }
     for val in args[1..].iter() {
